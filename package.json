@@ -1,0 +1,26 @@
+{
+  "name": "vite-demo-ts",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@iconify-json/devicon": "^1.1.46",
+    "@iconify-json/mdi": "^1.1.67",
+    "@iconify/vue": "^4.1.2",
+    "@types/node": "^20.12.7",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "typescript": "^5.2.2",
+    "unplugin-icons": "^0.19.0",
+    "unplugin-vue-components": "^0.27.2",
+    "vite": "^5.2.0",
+    "vue-tsc": "^2.0.6"
+  }
+}
